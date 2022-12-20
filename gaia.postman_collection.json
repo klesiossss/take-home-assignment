@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "fa1a959e-fd3b-48b1-9840-9809ed6e2885",
+		"name": "teste",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8083/marionete/useraccount/ Copy",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"bla\",\n    \"password\": \"foo\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8083/marionete/useraccount/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"marionete",
+						"useraccount",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/marionete/useraccount/ Copy 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/marionete/useraccount/accountApi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"marionete",
+						"useraccount",
+						"accountApi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8083/marionete/useraccount/ Copy 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/marionete/useraccount/userApi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"marionete",
+						"useraccount",
+						"userApi"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
